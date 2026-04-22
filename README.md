@@ -28,30 +28,30 @@ This repository currently includes 45 agents across 15 categories.
 
 ## Browse By Category
 
-- [Automation](/Users/xubin/work/awesome-agents/agents/automation/README.md)
-- [Browser](/Users/xubin/work/awesome-agents/agents/browser/README.md)
-- [Business](/Users/xubin/work/awesome-agents/agents/business/README.md)
-- [Content](/Users/xubin/work/awesome-agents/agents/content/README.md)
-- [Data](/Users/xubin/work/awesome-agents/agents/data/README.md)
-- [Developer](/Users/xubin/work/awesome-agents/agents/developer/README.md)
-- [Finance](/Users/xubin/work/awesome-agents/agents/finance/README.md)
-- [Marketing](/Users/xubin/work/awesome-agents/agents/marketing/README.md)
-- [Multi-Agent](/Users/xubin/work/awesome-agents/agents/multi-agent/README.md)
-- [Operations](/Users/xubin/work/awesome-agents/agents/operations/README.md)
-- [Product](/Users/xubin/work/awesome-agents/agents/product/README.md)
-- [Productivity](/Users/xubin/work/awesome-agents/agents/productivity/README.md)
-- [Research](/Users/xubin/work/awesome-agents/agents/research/README.md)
-- [Security](/Users/xubin/work/awesome-agents/agents/security/README.md)
-- [Support](/Users/xubin/work/awesome-agents/agents/support/README.md)
+- [Automation](agents/automation/README.md)
+- [Browser](agents/browser/README.md)
+- [Business](agents/business/README.md)
+- [Content](agents/content/README.md)
+- [Data](agents/data/README.md)
+- [Developer](agents/developer/README.md)
+- [Finance](agents/finance/README.md)
+- [Marketing](agents/marketing/README.md)
+- [Multi-Agent](agents/multi-agent/README.md)
+- [Operations](agents/operations/README.md)
+- [Product](agents/product/README.md)
+- [Productivity](agents/productivity/README.md)
+- [Research](agents/research/README.md)
+- [Security](agents/security/README.md)
+- [Support](agents/support/README.md)
 
 ## Featured Agents
 
-- [agents/browser/browser-research-operator](/Users/xubin/work/awesome-agents/agents/browser/browser-research-operator): for tab-heavy browsing, source gathering, and structured online research
-- [agents/automation/os-task-runner](/Users/xubin/work/awesome-agents/agents/automation/os-task-runner): for desktop-style task execution, file handling, and repeatable local workflows
-- [agents/data/data-extraction-agent](/Users/xubin/work/awesome-agents/agents/data/data-extraction-agent): for turning raw pages, PDFs, tables, or notes into structured records
-- [agents/multi-agent/multi-agent-coordinator](/Users/xubin/work/awesome-agents/agents/multi-agent/multi-agent-coordinator): for splitting larger objectives into specialist sub-agents and integrating their outputs
-- [agents/product/product-spec-writer](/Users/xubin/work/awesome-agents/agents/product/product-spec-writer): for turning rough product ideas into buildable specs
-- [agents/security/security-reviewer](/Users/xubin/work/awesome-agents/agents/security/security-reviewer): for early-stage risk spotting on features, workflows, and system changes
+- [agents/browser/browser-research-operator](agents/browser/browser-research-operator/): for tab-heavy browsing, source gathering, and structured online research
+- [agents/automation/os-task-runner](agents/automation/os-task-runner/): for desktop-style task execution, file handling, and repeatable local workflows
+- [agents/data/data-extraction-agent](agents/data/data-extraction-agent/): for turning raw pages, PDFs, tables, or notes into structured records
+- [agents/multi-agent/multi-agent-coordinator](agents/multi-agent/multi-agent-coordinator/): for splitting larger objectives into specialist sub-agents and integrating their outputs
+- [agents/product/product-spec-writer](agents/product/product-spec-writer/): for turning rough product ideas into buildable specs
+- [agents/security/security-reviewer](agents/security/security-reviewer/): for early-stage risk spotting on features, workflows, and system changes
 
 ## Recommended Agent Combos
 
@@ -65,109 +65,109 @@ This repository currently includes 45 agents across 15 categories.
 ## Catalog
 
 ### Automation
-See [agents/automation/README.md](/Users/xubin/work/awesome-agents/agents/automation/README.md).
+See [agents/automation/README.md](agents/automation/README.md).
 
-- [os-task-runner](/Users/xubin/work/awesome-agents/agents/automation/os-task-runner): Handles repeatable local file and desktop-style task flows.
-- [recurring-task-automator](/Users/xubin/work/awesome-agents/agents/automation/recurring-task-automator): Turns repeated routines into scheduled automation plans.
-- [workflow-orchestrator](/Users/xubin/work/awesome-agents/agents/automation/workflow-orchestrator): Designs multi-step automations across tools and services.
+- [os-task-runner](agents/automation/os-task-runner/): Handles repeatable local file and desktop-style task flows.
+- [recurring-task-automator](agents/automation/recurring-task-automator/): Turns repeated routines into scheduled automation plans.
+- [workflow-orchestrator](agents/automation/workflow-orchestrator/): Designs multi-step automations across tools and services.
 
 ### Browser
-See [agents/browser/README.md](/Users/xubin/work/awesome-agents/agents/browser/README.md).
+See [agents/browser/README.md](agents/browser/README.md).
 
-- [browser-research-operator](/Users/xubin/work/awesome-agents/agents/browser/browser-research-operator): Navigates sources and tabs to build structured research packets.
-- [site-qa-navigator](/Users/xubin/work/awesome-agents/agents/browser/site-qa-navigator): Explores sites like a tester to find broken flows and regressions.
-- [web-form-automation-agent](/Users/xubin/work/awesome-agents/agents/browser/web-form-automation-agent): Handles repetitive browser form flows and data-entry tasks.
+- [browser-research-operator](agents/browser/browser-research-operator/): Navigates sources and tabs to build structured research packets.
+- [site-qa-navigator](agents/browser/site-qa-navigator/): Explores sites like a tester to find broken flows and regressions.
+- [web-form-automation-agent](agents/browser/web-form-automation-agent/): Handles repetitive browser form flows and data-entry tasks.
 
 ### Business
-See [agents/business/README.md](/Users/xubin/work/awesome-agents/agents/business/README.md).
+See [agents/business/README.md](agents/business/README.md).
 
-- [customer-voice-analyst](/Users/xubin/work/awesome-agents/agents/business/customer-voice-analyst): Extracts themes and action items from customer feedback.
-- [market-mapper](/Users/xubin/work/awesome-agents/agents/business/market-mapper): Maps market structure, segments, and key competitors.
-- [sales-prospect-researcher](/Users/xubin/work/awesome-agents/agents/business/sales-prospect-researcher): Prepares prospect briefs for outreach and discovery.
+- [customer-voice-analyst](agents/business/customer-voice-analyst/): Extracts themes and action items from customer feedback.
+- [market-mapper](agents/business/market-mapper/): Maps market structure, segments, and key competitors.
+- [sales-prospect-researcher](agents/business/sales-prospect-researcher/): Prepares prospect briefs for outreach and discovery.
 
 ### Content
-See [agents/content/README.md](/Users/xubin/work/awesome-agents/agents/content/README.md).
+See [agents/content/README.md](agents/content/README.md).
 
-- [newsletter-writer](/Users/xubin/work/awesome-agents/agents/content/newsletter-writer): Drafts concise newsletters from source notes and links.
-- [social-content-planner](/Users/xubin/work/awesome-agents/agents/content/social-content-planner): Builds channel-aware social publishing plans.
-- [youtube-digest-curator](/Users/xubin/work/awesome-agents/agents/content/youtube-digest-curator): Creates high-signal digests from creator and topic watchlists.
+- [newsletter-writer](agents/content/newsletter-writer/): Drafts concise newsletters from source notes and links.
+- [social-content-planner](agents/content/social-content-planner/): Builds channel-aware social publishing plans.
+- [youtube-digest-curator](agents/content/youtube-digest-curator/): Creates high-signal digests from creator and topic watchlists.
 
 ### Data
-See [agents/data/README.md](/Users/xubin/work/awesome-agents/agents/data/README.md).
+See [agents/data/README.md](agents/data/README.md).
 
-- [data-extraction-agent](/Users/xubin/work/awesome-agents/agents/data/data-extraction-agent): Pulls structured fields and records out of messy source material.
-- [dataset-cleanup-agent](/Users/xubin/work/awesome-agents/agents/data/dataset-cleanup-agent): Finds inconsistencies, duplicates, and cleanup priorities in datasets.
-- [spreadsheet-analyst](/Users/xubin/work/awesome-agents/agents/data/spreadsheet-analyst): Answers business questions from spreadsheet-style tables.
+- [data-extraction-agent](agents/data/data-extraction-agent/): Pulls structured fields and records out of messy source material.
+- [dataset-cleanup-agent](agents/data/dataset-cleanup-agent/): Finds inconsistencies, duplicates, and cleanup priorities in datasets.
+- [spreadsheet-analyst](agents/data/spreadsheet-analyst/): Answers business questions from spreadsheet-style tables.
 
 ### Developer
-See [agents/developer/README.md](/Users/xubin/work/awesome-agents/agents/developer/README.md).
+See [agents/developer/README.md](agents/developer/README.md).
 
-- [api-integration-builder](/Users/xubin/work/awesome-agents/agents/developer/api-integration-builder): Plans API integrations and endpoint flows.
-- [bug-triage-agent](/Users/xubin/work/awesome-agents/agents/developer/bug-triage-agent): Turns bug reports into reproducible engineering work.
-- [code-reviewer](/Users/xubin/work/awesome-agents/agents/developer/code-reviewer): Reviews code changes for bugs, risks, and test gaps.
+- [api-integration-builder](agents/developer/api-integration-builder/): Plans API integrations and endpoint flows.
+- [bug-triage-agent](agents/developer/bug-triage-agent/): Turns bug reports into reproducible engineering work.
+- [code-reviewer](agents/developer/code-reviewer/): Reviews code changes for bugs, risks, and test gaps.
 
 ### Finance
-See [agents/finance/README.md](/Users/xubin/work/awesome-agents/agents/finance/README.md).
+See [agents/finance/README.md](agents/finance/README.md).
 
-- [expense-auditor](/Users/xubin/work/awesome-agents/agents/finance/expense-auditor): Finds anomalies and cleanup opportunities in spend data.
-- [kpi-analyst](/Users/xubin/work/awesome-agents/agents/finance/kpi-analyst): Summarizes business metrics and reporting deltas.
-- [pricing-strategist](/Users/xubin/work/awesome-agents/agents/finance/pricing-strategist): Evaluates pricing models and packaging trade-offs.
+- [expense-auditor](agents/finance/expense-auditor/): Finds anomalies and cleanup opportunities in spend data.
+- [kpi-analyst](agents/finance/kpi-analyst/): Summarizes business metrics and reporting deltas.
+- [pricing-strategist](agents/finance/pricing-strategist/): Evaluates pricing models and packaging trade-offs.
 
 ### Marketing
-See [agents/marketing/README.md](/Users/xubin/work/awesome-agents/agents/marketing/README.md).
+See [agents/marketing/README.md](agents/marketing/README.md).
 
-- [campaign-brief-writer](/Users/xubin/work/awesome-agents/agents/marketing/campaign-brief-writer): Turns rough marketing ideas into cross-channel briefs.
-- [community-manager](/Users/xubin/work/awesome-agents/agents/marketing/community-manager): Plans community updates, moderation responses, and engagement loops.
-- [seo-content-strategist](/Users/xubin/work/awesome-agents/agents/marketing/seo-content-strategist): Builds topic clusters and search-oriented content strategy.
+- [campaign-brief-writer](agents/marketing/campaign-brief-writer/): Turns rough marketing ideas into cross-channel briefs.
+- [community-manager](agents/marketing/community-manager/): Plans community updates, moderation responses, and engagement loops.
+- [seo-content-strategist](agents/marketing/seo-content-strategist/): Builds topic clusters and search-oriented content strategy.
 
 ### Multi-Agent
-See [agents/multi-agent/README.md](/Users/xubin/work/awesome-agents/agents/multi-agent/README.md).
+See [agents/multi-agent/README.md](agents/multi-agent/README.md).
 
-- [multi-agent-coordinator](/Users/xubin/work/awesome-agents/agents/multi-agent/multi-agent-coordinator): Breaks larger goals into specialist workstreams and integrates the results.
-- [specialist-router](/Users/xubin/work/awesome-agents/agents/multi-agent/specialist-router): Chooses the best agent or role for each subtask in a mixed workflow.
-- [synthesis-editor](/Users/xubin/work/awesome-agents/agents/multi-agent/synthesis-editor): Combines multiple outputs into one coherent final deliverable.
+- [multi-agent-coordinator](agents/multi-agent/multi-agent-coordinator/): Breaks larger goals into specialist workstreams and integrates the results.
+- [specialist-router](agents/multi-agent/specialist-router/): Chooses the best agent or role for each subtask in a mixed workflow.
+- [synthesis-editor](agents/multi-agent/synthesis-editor/): Combines multiple outputs into one coherent final deliverable.
 
 ### Operations
-See [agents/operations/README.md](/Users/xubin/work/awesome-agents/agents/operations/README.md).
+See [agents/operations/README.md](agents/operations/README.md).
 
-- [incident-commander](/Users/xubin/work/awesome-agents/agents/operations/incident-commander): Coordinates response during outages and incidents.
-- [project-status-reporter](/Users/xubin/work/awesome-agents/agents/operations/project-status-reporter): Creates short, honest stakeholder status updates.
-- [sop-writer](/Users/xubin/work/awesome-agents/agents/operations/sop-writer): Converts repeated work into clear SOPs.
+- [incident-commander](agents/operations/incident-commander/): Coordinates response during outages and incidents.
+- [project-status-reporter](agents/operations/project-status-reporter/): Creates short, honest stakeholder status updates.
+- [sop-writer](agents/operations/sop-writer/): Converts repeated work into clear SOPs.
 
 ### Product
-See [agents/product/README.md](/Users/xubin/work/awesome-agents/agents/product/README.md).
+See [agents/product/README.md](agents/product/README.md).
 
-- [feedback-prioritizer](/Users/xubin/work/awesome-agents/agents/product/feedback-prioritizer): Ranks feedback themes and product opportunities.
-- [launch-planner](/Users/xubin/work/awesome-agents/agents/product/launch-planner): Builds cross-functional launch plans and readiness checklists.
-- [product-spec-writer](/Users/xubin/work/awesome-agents/agents/product/product-spec-writer): Turns ideas and requirements into implementation-friendly specs.
+- [feedback-prioritizer](agents/product/feedback-prioritizer/): Ranks feedback themes and product opportunities.
+- [launch-planner](agents/product/launch-planner/): Builds cross-functional launch plans and readiness checklists.
+- [product-spec-writer](agents/product/product-spec-writer/): Turns ideas and requirements into implementation-friendly specs.
 
 ### Productivity
-See [agents/productivity/README.md](/Users/xubin/work/awesome-agents/agents/productivity/README.md).
+See [agents/productivity/README.md](agents/productivity/README.md).
 
-- [habit-coach](/Users/xubin/work/awesome-agents/agents/productivity/habit-coach): Supports accountability, reflection, and habit iteration.
-- [inbox-triage-assistant](/Users/xubin/work/awesome-agents/agents/productivity/inbox-triage-assistant): Sorts inbox items into clear next actions.
-- [meeting-briefing-agent](/Users/xubin/work/awesome-agents/agents/productivity/meeting-briefing-agent): Prepares concise, decision-ready meeting briefs.
+- [habit-coach](agents/productivity/habit-coach/): Supports accountability, reflection, and habit iteration.
+- [inbox-triage-assistant](agents/productivity/inbox-triage-assistant/): Sorts inbox items into clear next actions.
+- [meeting-briefing-agent](agents/productivity/meeting-briefing-agent/): Prepares concise, decision-ready meeting briefs.
 
 ### Research
-See [agents/research/README.md](/Users/xubin/work/awesome-agents/agents/research/README.md).
+See [agents/research/README.md](agents/research/README.md).
 
-- [arxiv-paper-reader](/Users/xubin/work/awesome-agents/agents/research/arxiv-paper-reader): Explains technical papers and practical implications.
-- [earnings-tracker](/Users/xubin/work/awesome-agents/agents/research/earnings-tracker): Summarizes earnings materials and management signal.
-- [web-research-analyst](/Users/xubin/work/awesome-agents/agents/research/web-research-analyst): Turns broad research questions into source-backed findings.
+- [arxiv-paper-reader](agents/research/arxiv-paper-reader/): Explains technical papers and practical implications.
+- [earnings-tracker](agents/research/earnings-tracker/): Summarizes earnings materials and management signal.
+- [web-research-analyst](agents/research/web-research-analyst/): Turns broad research questions into source-backed findings.
 
 ### Security
-See [agents/security/README.md](/Users/xubin/work/awesome-agents/agents/security/README.md).
+See [agents/security/README.md](agents/security/README.md).
 
-- [access-audit-analyst](/Users/xubin/work/awesome-agents/agents/security/access-audit-analyst): Reviews permissions for overbroad or stale access.
-- [incident-postmortem-writer](/Users/xubin/work/awesome-agents/agents/security/incident-postmortem-writer): Writes postmortems from incident timelines and analysis.
-- [security-reviewer](/Users/xubin/work/awesome-agents/agents/security/security-reviewer): Looks for obvious security risks and missing controls.
+- [access-audit-analyst](agents/security/access-audit-analyst/): Reviews permissions for overbroad or stale access.
+- [incident-postmortem-writer](agents/security/incident-postmortem-writer/): Writes postmortems from incident timelines and analysis.
+- [security-reviewer](agents/security/security-reviewer/): Looks for obvious security risks and missing controls.
 
 ### Support
-See [agents/support/README.md](/Users/xubin/work/awesome-agents/agents/support/README.md).
+See [agents/support/README.md](agents/support/README.md).
 
-- [customer-onboarding-guide](/Users/xubin/work/awesome-agents/agents/support/customer-onboarding-guide): Designs onboarding plans and activation guidance.
-- [knowledge-base-editor](/Users/xubin/work/awesome-agents/agents/support/knowledge-base-editor): Turns rough support knowledge into help-center content.
-- [support-triage-agent](/Users/xubin/work/awesome-agents/agents/support/support-triage-agent): Routes support requests by urgency and owner.
+- [customer-onboarding-guide](agents/support/customer-onboarding-guide/): Designs onboarding plans and activation guidance.
+- [knowledge-base-editor](agents/support/knowledge-base-editor/): Turns rough support knowledge into help-center content.
+- [support-triage-agent](agents/support/support-triage-agent/): Routes support requests by urgency and owner.
 
 ## How To Use
 
@@ -201,4 +201,4 @@ This makes agents easier to compare, reuse, and extend.
 
 ## Contributing
 
-See [CONTRIBUTING.md](/Users/xubin/work/awesome-agents/CONTRIBUTING.md) for authoring rules and [AGENTS.md](/Users/xubin/work/awesome-agents/AGENTS.md) for repository-wide contributor guidance.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for authoring rules and [AGENTS.md](AGENTS.md) for repository-wide contributor guidance.

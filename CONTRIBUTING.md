@@ -9,7 +9,7 @@ Create a new folder under `agents/<category>/<agent-name>/` and include:
 
 Use `kebab-case` for folder names such as `sales-prospect-researcher`.
 
-Base new `SOUL.md` files on [templates/SOUL.template.md](/Users/xubin/work/awesome-agents/templates/SOUL.template.md).
+Base new `SOUL.md` files on [templates/SOUL.template.md](templates/SOUL.template.md).
 
 ## Quality Bar
 
