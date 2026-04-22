@@ -1,0 +1,306 @@
+{
+  "name": "awesome-agents",
+  "formatVersion": 1,
+  "categories": [
+    {
+      "name": "automation",
+      "agents": [
+        {
+          "id": "os-task-runner",
+          "path": "agents/automation/os-task-runner",
+          "description": "Handles repeatable local file and desktop-style task flows."
+        },
+        {
+          "id": "recurring-task-automator",
+          "path": "agents/automation/recurring-task-automator",
+          "description": "Turns repeated routines into scheduled automation plans."
+        },
+        {
+          "id": "workflow-orchestrator",
+          "path": "agents/automation/workflow-orchestrator",
+          "description": "Designs multi-step automations across tools and services."
+        }
+      ]
+    },
+    {
+      "name": "browser",
+      "agents": [
+        {
+          "id": "browser-research-operator",
+          "path": "agents/browser/browser-research-operator",
+          "description": "Navigates sources and tabs to build structured research packets."
+        },
+        {
+          "id": "site-qa-navigator",
+          "path": "agents/browser/site-qa-navigator",
+          "description": "Explores sites like a tester to find broken flows and regressions."
+        },
+        {
+          "id": "web-form-automation-agent",
+          "path": "agents/browser/web-form-automation-agent",
+          "description": "Handles repetitive browser form flows and data-entry tasks."
+        }
+      ]
+    },
+    {
+      "name": "business",
+      "agents": [
+        {
+          "id": "customer-voice-analyst",
+          "path": "agents/business/customer-voice-analyst",
+          "description": "Extracts themes and action items from customer feedback."
+        },
+        {
+          "id": "market-mapper",
+          "path": "agents/business/market-mapper",
+          "description": "Maps market structure, segments, and key competitors."
+        },
+        {
+          "id": "sales-prospect-researcher",
+          "path": "agents/business/sales-prospect-researcher",
+          "description": "Prepares prospect briefs for outreach and discovery."
+        }
+      ]
+    },
+    {
+      "name": "content",
+      "agents": [
+        {
+          "id": "newsletter-writer",
+          "path": "agents/content/newsletter-writer",
+          "description": "Drafts concise newsletters from source notes and links."
+        },
+        {
+          "id": "social-content-planner",
+          "path": "agents/content/social-content-planner",
+          "description": "Builds channel-aware social publishing plans."
+        },
+        {
+          "id": "youtube-digest-curator",
+          "path": "agents/content/youtube-digest-curator",
+          "description": "Creates high-signal digests from creator and topic watchlists."
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "agents": [
+        {
+          "id": "data-extraction-agent",
+          "path": "agents/data/data-extraction-agent",
+          "description": "Pulls structured fields and records out of messy source material."
+        },
+        {
+          "id": "dataset-cleanup-agent",
+          "path": "agents/data/dataset-cleanup-agent",
+          "description": "Finds inconsistencies, duplicates, and cleanup priorities in datasets."
+        },
+        {
+          "id": "spreadsheet-analyst",
+          "path": "agents/data/spreadsheet-analyst",
+          "description": "Answers business questions from spreadsheet-style tables."
+        }
+      ]
+    },
+    {
+      "name": "developer",
+      "agents": [
+        {
+          "id": "api-integration-builder",
+          "path": "agents/developer/api-integration-builder",
+          "description": "Plans API integrations and endpoint flows."
+        },
+        {
+          "id": "bug-triage-agent",
+          "path": "agents/developer/bug-triage-agent",
+          "description": "Turns bug reports into reproducible engineering work."
+        },
+        {
+          "id": "code-reviewer",
+          "path": "agents/developer/code-reviewer",
+          "description": "Reviews code changes for bugs, risks, and test gaps."
+        }
+      ]
+    },
+    {
+      "name": "finance",
+      "agents": [
+        {
+          "id": "expense-auditor",
+          "path": "agents/finance/expense-auditor",
+          "description": "Finds anomalies and cleanup opportunities in spend data."
+        },
+        {
+          "id": "kpi-analyst",
+          "path": "agents/finance/kpi-analyst",
+          "description": "Summarizes business metrics and reporting deltas."
+        },
+        {
+          "id": "pricing-strategist",
+          "path": "agents/finance/pricing-strategist",
+          "description": "Evaluates pricing models and packaging trade-offs."
+        }
+      ]
+    },
+    {
+      "name": "marketing",
+      "agents": [
+        {
+          "id": "campaign-brief-writer",
+          "path": "agents/marketing/campaign-brief-writer",
+          "description": "Turns rough marketing ideas into cross-channel briefs."
+        },
+        {
+          "id": "community-manager",
+          "path": "agents/marketing/community-manager",
+          "description": "Plans community updates, moderation responses, and engagement loops."
+        },
+        {
+          "id": "seo-content-strategist",
+          "path": "agents/marketing/seo-content-strategist",
+          "description": "Builds topic clusters and search-oriented content strategy."
+        }
+      ]
+    },
+    {
+      "name": "multi-agent",
+      "agents": [
+        {
+          "id": "multi-agent-coordinator",
+          "path": "agents/multi-agent/multi-agent-coordinator",
+          "description": "Breaks larger goals into specialist workstreams and integrates the results."
+        },
+        {
+          "id": "specialist-router",
+          "path": "agents/multi-agent/specialist-router",
+          "description": "Chooses the best agent or role for each subtask in a mixed workflow."
+        },
+        {
+          "id": "synthesis-editor",
+          "path": "agents/multi-agent/synthesis-editor",
+          "description": "Combines multiple outputs into one coherent final deliverable."
+        }
+      ]
+    },
+    {
+      "name": "operations",
+      "agents": [
+        {
+          "id": "incident-commander",
+          "path": "agents/operations/incident-commander",
+          "description": "Coordinates response during outages and incidents."
+        },
+        {
+          "id": "project-status-reporter",
+          "path": "agents/operations/project-status-reporter",
+          "description": "Creates short, honest stakeholder status updates."
+        },
+        {
+          "id": "sop-writer",
+          "path": "agents/operations/sop-writer",
+          "description": "Converts repeated work into clear SOPs."
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "agents": [
+        {
+          "id": "feedback-prioritizer",
+          "path": "agents/product/feedback-prioritizer",
+          "description": "Ranks feedback themes and product opportunities."
+        },
+        {
+          "id": "launch-planner",
+          "path": "agents/product/launch-planner",
+          "description": "Builds cross-functional launch plans and readiness checklists."
+        },
+        {
+          "id": "product-spec-writer",
+          "path": "agents/product/product-spec-writer",
+          "description": "Turns ideas and requirements into implementation-friendly specs."
+        }
+      ]
+    },
+    {
+      "name": "productivity",
+      "agents": [
+        {
+          "id": "habit-coach",
+          "path": "agents/productivity/habit-coach",
+          "description": "Supports accountability, reflection, and habit iteration."
+        },
+        {
+          "id": "inbox-triage-assistant",
+          "path": "agents/productivity/inbox-triage-assistant",
+          "description": "Sorts inbox items into clear next actions."
+        },
+        {
+          "id": "meeting-briefing-agent",
+          "path": "agents/productivity/meeting-briefing-agent",
+          "description": "Prepares concise, decision-ready meeting briefs."
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "agents": [
+        {
+          "id": "arxiv-paper-reader",
+          "path": "agents/research/arxiv-paper-reader",
+          "description": "Explains technical papers and practical implications."
+        },
+        {
+          "id": "earnings-tracker",
+          "path": "agents/research/earnings-tracker",
+          "description": "Summarizes earnings materials and management signal."
+        },
+        {
+          "id": "web-research-analyst",
+          "path": "agents/research/web-research-analyst",
+          "description": "Turns broad research questions into source-backed findings."
+        }
+      ]
+    },
+    {
+      "name": "security",
+      "agents": [
+        {
+          "id": "access-audit-analyst",
+          "path": "agents/security/access-audit-analyst",
+          "description": "Reviews permissions for overbroad or stale access."
+        },
+        {
+          "id": "incident-postmortem-writer",
+          "path": "agents/security/incident-postmortem-writer",
+          "description": "Writes postmortems from incident timelines and analysis."
+        },
+        {
+          "id": "security-reviewer",
+          "path": "agents/security/security-reviewer",
+          "description": "Looks for obvious security risks and missing controls."
+        }
+      ]
+    },
+    {
+      "name": "support",
+      "agents": [
+        {
+          "id": "customer-onboarding-guide",
+          "path": "agents/support/customer-onboarding-guide",
+          "description": "Designs onboarding plans and activation guidance."
+        },
+        {
+          "id": "knowledge-base-editor",
+          "path": "agents/support/knowledge-base-editor",
+          "description": "Turns rough support knowledge into help-center content."
+        },
+        {
+          "id": "support-triage-agent",
+          "path": "agents/support/support-triage-agent",
+          "description": "Routes support requests by urgency and owner."
+        }
+      ]
+    }
+  ]
+}
