@@ -24,7 +24,7 @@ agents.json
 
 ## Current Coverage
 
-This repository currently includes 45 agents across 15 categories.
+This repository currently includes 60 agents across 15 categories.
 
 ## Browse By Category
 
@@ -67,6 +67,8 @@ This repository currently includes 45 agents across 15 categories.
 ### Automation
 See [agents/automation/README.md](agents/automation/README.md).
 
+- [home-server-operator](agents/automation/home-server-operator/): Monitors self-hosted services and turns incidents into concrete recovery steps.
+- [n8n-integration-architect](agents/automation/n8n-integration-architect/): Designs n8n-style workflows, nodes, triggers, and error handling.
 - [os-task-runner](agents/automation/os-task-runner/): Handles repeatable local file and desktop-style task flows.
 - [recurring-task-automator](agents/automation/recurring-task-automator/): Turns repeated routines into scheduled automation plans.
 - [workflow-orchestrator](agents/automation/workflow-orchestrator/): Designs multi-step automations across tools and services.
@@ -89,7 +91,10 @@ See [agents/business/README.md](agents/business/README.md).
 See [agents/content/README.md](agents/content/README.md).
 
 - [newsletter-writer](agents/content/newsletter-writer/): Drafts concise newsletters from source notes and links.
+- [podcast-production-producer](agents/content/podcast-production-producer/): Turns research and talking points into a practical podcast production plan.
+- [reddit-digest-curator](agents/content/reddit-digest-curator/): Builds digest-style summaries from subreddit watchlists and discussion threads.
 - [social-content-planner](agents/content/social-content-planner/): Builds channel-aware social publishing plans.
+- [tech-news-digest-agent](agents/content/tech-news-digest-agent/): Synthesizes multi-source tech updates into one concise briefing.
 - [youtube-digest-curator](agents/content/youtube-digest-curator/): Creates high-signal digests from creator and topic watchlists.
 
 ### Data
@@ -130,7 +135,9 @@ See [agents/multi-agent/README.md](agents/multi-agent/README.md).
 ### Operations
 See [agents/operations/README.md](agents/operations/README.md).
 
+- [dashboard-briefing-agent](agents/operations/dashboard-briefing-agent/): Converts live dashboard metrics into a short executive-ready operational briefing.
 - [incident-commander](agents/operations/incident-commander/): Coordinates response during outages and incidents.
+- [project-state-manager](agents/operations/project-state-manager/): Consolidates scattered project updates into a current state map and next actions.
 - [project-status-reporter](agents/operations/project-status-reporter/): Creates short, honest stakeholder status updates.
 - [sop-writer](agents/operations/sop-writer/): Converts repeated work into clear SOPs.
 
@@ -138,15 +145,23 @@ See [agents/operations/README.md](agents/operations/README.md).
 See [agents/product/README.md](agents/product/README.md).
 
 - [feedback-prioritizer](agents/product/feedback-prioritizer/): Ranks feedback themes and product opportunities.
+- [idea-validator-agent](agents/product/idea-validator-agent/): Pressure-tests early product ideas against user pain, feasibility, and strategic fit.
 - [launch-planner](agents/product/launch-planner/): Builds cross-functional launch plans and readiness checklists.
 - [product-spec-writer](agents/product/product-spec-writer/): Turns ideas and requirements into implementation-friendly specs.
 
 ### Productivity
 See [agents/productivity/README.md](agents/productivity/README.md).
 
+- [family-calendar-household-assistant](agents/productivity/family-calendar-household-assistant/): Coordinates family schedules, appointments, and household reminders into one usable view.
 - [habit-coach](agents/productivity/habit-coach/): Supports accountability, reflection, and habit iteration.
+- [health-symptom-tracker](agents/productivity/health-symptom-tracker/): Organizes symptom logs, timeline changes, and observation notes for later review.
 - [inbox-triage-assistant](agents/productivity/inbox-triage-assistant/): Sorts inbox items into clear next actions.
+- [meeting-action-extractor](agents/productivity/meeting-action-extractor/): Pulls decisions, owners, and follow-ups out of meeting notes or transcripts.
 - [meeting-briefing-agent](agents/productivity/meeting-briefing-agent/): Prepares concise, decision-ready meeting briefs.
+- [morning-briefing-agent](agents/productivity/morning-briefing-agent/): Builds a custom daily briefing from priorities, schedules, and tracked information.
+- [newsletter-digest-agent](agents/productivity/newsletter-digest-agent/): Compresses inbox-style newsletters into a short, prioritized reading digest.
+- [personal-crm-agent](agents/productivity/personal-crm-agent/): Keeps relationship notes, follow-ups, and outreach opportunities organized.
+- [second-brain-curator](agents/productivity/second-brain-curator/): Organizes captured notes into reusable summaries, clusters, and retrieval-friendly structures.
 
 ### Research
 See [agents/research/README.md](agents/research/README.md).

@@ -6,6 +6,16 @@
       "name": "automation",
       "agents": [
         {
+          "id": "home-server-operator",
+          "path": "agents/automation/home-server-operator",
+          "description": "Monitors self-hosted services and turns incidents into concrete recovery steps."
+        },
+        {
+          "id": "n8n-integration-architect",
+          "path": "agents/automation/n8n-integration-architect",
+          "description": "Designs n8n-style workflows, nodes, triggers, and error handling."
+        },
+        {
           "id": "os-task-runner",
           "path": "agents/automation/os-task-runner",
           "description": "Handles repeatable local file and desktop-style task flows."
@@ -71,9 +81,24 @@
           "description": "Drafts concise newsletters from source notes and links."
         },
         {
+          "id": "podcast-production-producer",
+          "path": "agents/content/podcast-production-producer",
+          "description": "Turns research and talking points into a practical podcast production plan."
+        },
+        {
+          "id": "reddit-digest-curator",
+          "path": "agents/content/reddit-digest-curator",
+          "description": "Builds digest-style summaries from subreddit watchlists and discussion threads."
+        },
+        {
           "id": "social-content-planner",
           "path": "agents/content/social-content-planner",
           "description": "Builds channel-aware social publishing plans."
+        },
+        {
+          "id": "tech-news-digest-agent",
+          "path": "agents/content/tech-news-digest-agent",
+          "description": "Synthesizes multi-source tech updates into one concise briefing."
         },
         {
           "id": "youtube-digest-curator",
@@ -186,9 +211,19 @@
       "name": "operations",
       "agents": [
         {
+          "id": "dashboard-briefing-agent",
+          "path": "agents/operations/dashboard-briefing-agent",
+          "description": "Converts live dashboards and KPI snapshots into short operational briefings."
+        },
+        {
           "id": "incident-commander",
           "path": "agents/operations/incident-commander",
           "description": "Coordinates response during outages and incidents."
+        },
+        {
+          "id": "project-state-manager",
+          "path": "agents/operations/project-state-manager",
+          "description": "Consolidates scattered project updates into a current state map and next actions."
         },
         {
           "id": "project-status-reporter",
@@ -211,6 +246,11 @@
           "description": "Ranks feedback themes and product opportunities."
         },
         {
+          "id": "idea-validator-agent",
+          "path": "agents/product/idea-validator-agent",
+          "description": "Pressure-tests early product ideas against user pain, feasibility, and strategic fit."
+        },
+        {
           "id": "launch-planner",
           "path": "agents/product/launch-planner",
           "description": "Builds cross-functional launch plans and readiness checklists."
@@ -226,9 +266,19 @@
       "name": "productivity",
       "agents": [
         {
+          "id": "family-calendar-household-assistant",
+          "path": "agents/productivity/family-calendar-household-assistant",
+          "description": "Coordinates family schedules, appointments, and household reminders into one usable view."
+        },
+        {
           "id": "habit-coach",
           "path": "agents/productivity/habit-coach",
           "description": "Supports accountability, reflection, and habit iteration."
+        },
+        {
+          "id": "health-symptom-tracker",
+          "path": "agents/productivity/health-symptom-tracker",
+          "description": "Organizes symptom logs, timeline changes, and observation notes for later review."
         },
         {
           "id": "inbox-triage-assistant",
@@ -236,9 +286,34 @@
           "description": "Sorts inbox items into clear next actions."
         },
         {
+          "id": "meeting-action-extractor",
+          "path": "agents/productivity/meeting-action-extractor",
+          "description": "Pulls decisions, owners, and follow-ups out of meeting notes or transcripts."
+        },
+        {
           "id": "meeting-briefing-agent",
           "path": "agents/productivity/meeting-briefing-agent",
           "description": "Prepares concise, decision-ready meeting briefs."
+        },
+        {
+          "id": "morning-briefing-agent",
+          "path": "agents/productivity/morning-briefing-agent",
+          "description": "Builds a custom daily briefing from priorities, schedules, and tracked information."
+        },
+        {
+          "id": "newsletter-digest-agent",
+          "path": "agents/productivity/newsletter-digest-agent",
+          "description": "Compresses inbox-style newsletters into a short, prioritized reading digest."
+        },
+        {
+          "id": "personal-crm-agent",
+          "path": "agents/productivity/personal-crm-agent",
+          "description": "Keeps relationship notes, follow-ups, and outreach opportunities organized."
+        },
+        {
+          "id": "second-brain-curator",
+          "path": "agents/productivity/second-brain-curator",
+          "description": "Organizes captured notes into reusable summaries and retrieval-friendly structures."
         }
       ]
     },
