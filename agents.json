@@ -1,6 +1,6 @@
 {
   "name": "awesome-agents",
-  "formatVersion": 1,
+  "formatVersion": 2,
   "categories": [
     {
       "name": "automation",
@@ -8,29 +8,143 @@
         {
           "id": "home-server-operator",
           "path": "agents/automation/home-server-operator",
-          "description": "Monitors self-hosted services and turns incidents into concrete recovery steps."
+          "description": "Monitors self-hosted services and turns incidents into concrete recovery steps.",
+          "slug": "home-server-operator",
+          "name": "Home Server Operator",
+          "category": "automation",
+          "tags": [
+            "automation",
+            "workflows",
+            "home",
+            "server"
+          ],
+          "bestFor": [
+            "repeatable tasks",
+            "workflow planning",
+            "operations with dependencies"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": true,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "n8n-integration-architect",
           "path": "agents/automation/n8n-integration-architect",
-          "description": "Designs n8n-style workflows, nodes, triggers, and error handling."
+          "description": "Designs n8n-style workflows, nodes, triggers, and error handling.",
+          "slug": "n8n-integration-architect",
+          "name": "N8n Integration Architect",
+          "category": "automation",
+          "tags": [
+            "automation",
+            "workflows",
+            "n8n",
+            "integration"
+          ],
+          "bestFor": [
+            "repeatable tasks",
+            "workflow planning",
+            "operations with dependencies"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": true,
+            "humanReview": false
+          }
         },
         {
           "id": "os-task-runner",
           "path": "agents/automation/os-task-runner",
-          "description": "Handles repeatable local file and desktop-style task flows."
+          "description": "Handles repeatable local file and desktop-style task flows.",
+          "slug": "os-task-runner",
+          "name": "Os Task Runner",
+          "category": "automation",
+          "tags": [
+            "automation",
+            "workflows",
+            "os",
+            "task",
+            "runner"
+          ],
+          "bestFor": [
+            "repeatable tasks",
+            "workflow planning",
+            "operations with dependencies"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": true,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "recurring-task-automator",
           "path": "agents/automation/recurring-task-automator",
-          "description": "Turns repeated routines into scheduled automation plans."
+          "description": "Turns repeated routines into scheduled automation plans.",
+          "slug": "recurring-task-automator",
+          "name": "Recurring Task Automator",
+          "category": "automation",
+          "tags": [
+            "automation",
+            "workflows",
+            "recurring",
+            "task",
+            "automator"
+          ],
+          "bestFor": [
+            "repeatable tasks",
+            "workflow planning",
+            "operations with dependencies"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "workflow-orchestrator",
           "path": "agents/automation/workflow-orchestrator",
-          "description": "Designs multi-step automations across tools and services."
+          "description": "Designs multi-step automations across tools and services.",
+          "slug": "workflow-orchestrator",
+          "name": "Workflow Orchestrator",
+          "category": "automation",
+          "tags": [
+            "automation",
+            "workflows",
+            "workflow",
+            "orchestrator"
+          ],
+          "bestFor": [
+            "repeatable tasks",
+            "workflow planning",
+            "operations with dependencies"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": true,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Automation",
+      "description": "Agents for repeatable local tasks, orchestrated workflows, and recurring automation opportunities."
     },
     {
       "name": "browser",
@@ -38,19 +152,87 @@
         {
           "id": "browser-research-operator",
           "path": "agents/browser/browser-research-operator",
-          "description": "Navigates sources and tabs to build structured research packets."
+          "description": "Navigates sources and tabs to build structured research packets.",
+          "slug": "browser-research-operator",
+          "name": "Browser Research Operator",
+          "category": "browser",
+          "tags": [
+            "browser",
+            "web",
+            "research"
+          ],
+          "bestFor": [
+            "web navigation",
+            "browser-driven research",
+            "UI and form workflows"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": true,
+          "requires": {
+            "browser": true,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "site-qa-navigator",
           "path": "agents/browser/site-qa-navigator",
-          "description": "Explores sites like a tester to find broken flows and regressions."
+          "description": "Explores sites like a tester to find broken flows and regressions.",
+          "slug": "site-qa-navigator",
+          "name": "Site QA Navigator",
+          "category": "browser",
+          "tags": [
+            "browser",
+            "web",
+            "site",
+            "qa",
+            "navigator"
+          ],
+          "bestFor": [
+            "web navigation",
+            "browser-driven research",
+            "UI and form workflows"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": true,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "web-form-automation-agent",
           "path": "agents/browser/web-form-automation-agent",
-          "description": "Handles repetitive browser form flows and data-entry tasks."
+          "description": "Handles repetitive browser form flows and data-entry tasks.",
+          "slug": "web-form-automation-agent",
+          "name": "Web Form Automation Agent",
+          "category": "browser",
+          "tags": [
+            "browser",
+            "web",
+            "form",
+            "automation"
+          ],
+          "bestFor": [
+            "web navigation",
+            "browser-driven research",
+            "UI and form workflows"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": true,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Browser",
+      "description": "Agents for browsing-heavy work such as research, form automation, and web flow validation."
     },
     {
       "name": "business",
@@ -58,19 +240,88 @@
         {
           "id": "customer-voice-analyst",
           "path": "agents/business/customer-voice-analyst",
-          "description": "Extracts themes and action items from customer feedback."
+          "description": "Extracts themes and action items from customer feedback.",
+          "slug": "customer-voice-analyst",
+          "name": "Customer Voice Analyst",
+          "category": "business",
+          "tags": [
+            "business",
+            "analysis",
+            "customer",
+            "voice"
+          ],
+          "bestFor": [
+            "market analysis",
+            "sales research",
+            "customer insight synthesis"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "market-mapper",
           "path": "agents/business/market-mapper",
-          "description": "Maps market structure, segments, and key competitors."
+          "description": "Maps market structure, segments, and key competitors.",
+          "slug": "market-mapper",
+          "name": "Market Mapper",
+          "category": "business",
+          "tags": [
+            "business",
+            "analysis",
+            "market",
+            "mapper"
+          ],
+          "bestFor": [
+            "market analysis",
+            "sales research",
+            "customer insight synthesis"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "sales-prospect-researcher",
           "path": "agents/business/sales-prospect-researcher",
-          "description": "Prepares prospect briefs for outreach and discovery."
+          "description": "Prepares prospect briefs for outreach and discovery.",
+          "slug": "sales-prospect-researcher",
+          "name": "Sales Prospect Researcher",
+          "category": "business",
+          "tags": [
+            "business",
+            "analysis",
+            "sales",
+            "prospect",
+            "researcher"
+          ],
+          "bestFor": [
+            "market analysis",
+            "sales research",
+            "customer insight synthesis"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": true,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Business",
+      "description": "Agents for market mapping, sales research, and customer insight synthesis."
     },
     {
       "name": "content",
@@ -78,34 +329,167 @@
         {
           "id": "newsletter-writer",
           "path": "agents/content/newsletter-writer",
-          "description": "Drafts concise newsletters from source notes and links."
+          "description": "Drafts concise newsletters from source notes and links.",
+          "slug": "newsletter-writer",
+          "name": "Newsletter Writer",
+          "category": "content",
+          "tags": [
+            "content",
+            "publishing",
+            "newsletter"
+          ],
+          "bestFor": [
+            "digest creation",
+            "editorial planning",
+            "content production"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "podcast-production-producer",
           "path": "agents/content/podcast-production-producer",
-          "description": "Turns research and talking points into a practical podcast production plan."
+          "description": "Turns research and talking points into a practical podcast production plan.",
+          "slug": "podcast-production-producer",
+          "name": "Podcast Production Producer",
+          "category": "content",
+          "tags": [
+            "content",
+            "publishing",
+            "podcast",
+            "production"
+          ],
+          "bestFor": [
+            "digest creation",
+            "editorial planning",
+            "content production"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "reddit-digest-curator",
           "path": "agents/content/reddit-digest-curator",
-          "description": "Builds digest-style summaries from subreddit watchlists and discussion threads."
+          "description": "Builds digest-style summaries from subreddit watchlists and discussion threads.",
+          "slug": "reddit-digest-curator",
+          "name": "Reddit Digest Curator",
+          "category": "content",
+          "tags": [
+            "content",
+            "publishing",
+            "reddit",
+            "digest"
+          ],
+          "bestFor": [
+            "digest creation",
+            "editorial planning",
+            "content production"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "social-content-planner",
           "path": "agents/content/social-content-planner",
-          "description": "Builds channel-aware social publishing plans."
+          "description": "Builds channel-aware social publishing plans.",
+          "slug": "social-content-planner",
+          "name": "Social Content Planner",
+          "category": "content",
+          "tags": [
+            "content",
+            "publishing",
+            "social"
+          ],
+          "bestFor": [
+            "digest creation",
+            "editorial planning",
+            "content production"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "tech-news-digest-agent",
           "path": "agents/content/tech-news-digest-agent",
-          "description": "Synthesizes multi-source tech updates into one concise briefing."
+          "description": "Synthesizes multi-source tech updates into one concise briefing.",
+          "slug": "tech-news-digest-agent",
+          "name": "Tech News Digest Agent",
+          "category": "content",
+          "tags": [
+            "content",
+            "publishing",
+            "tech",
+            "news",
+            "digest"
+          ],
+          "bestFor": [
+            "digest creation",
+            "editorial planning",
+            "content production"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "youtube-digest-curator",
           "path": "agents/content/youtube-digest-curator",
-          "description": "Creates high-signal digests from creator and topic watchlists."
+          "description": "Creates high-signal digests from creator and topic watchlists.",
+          "slug": "youtube-digest-curator",
+          "name": "Youtube Digest Curator",
+          "category": "content",
+          "tags": [
+            "content",
+            "publishing",
+            "youtube",
+            "digest"
+          ],
+          "bestFor": [
+            "digest creation",
+            "editorial planning",
+            "content production"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Content",
+      "description": "Agents for drafting newsletters, planning social content, and digesting creator material."
     },
     {
       "name": "data",
@@ -113,19 +497,85 @@
         {
           "id": "data-extraction-agent",
           "path": "agents/data/data-extraction-agent",
-          "description": "Pulls structured fields and records out of messy source material."
+          "description": "Pulls structured fields and records out of messy source material.",
+          "slug": "data-extraction-agent",
+          "name": "Data Extraction Agent",
+          "category": "data",
+          "tags": [
+            "data",
+            "structured-data",
+            "extraction"
+          ],
+          "bestFor": [
+            "data extraction",
+            "table review",
+            "dataset cleanup"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "dataset-cleanup-agent",
           "path": "agents/data/dataset-cleanup-agent",
-          "description": "Finds inconsistencies, duplicates, and cleanup priorities in datasets."
+          "description": "Finds inconsistencies, duplicates, and cleanup priorities in datasets.",
+          "slug": "dataset-cleanup-agent",
+          "name": "Dataset Cleanup Agent",
+          "category": "data",
+          "tags": [
+            "data",
+            "structured-data",
+            "dataset",
+            "cleanup"
+          ],
+          "bestFor": [
+            "data extraction",
+            "table review",
+            "dataset cleanup"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": true,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "spreadsheet-analyst",
           "path": "agents/data/spreadsheet-analyst",
-          "description": "Answers business questions from spreadsheet-style tables."
+          "description": "Answers business questions from spreadsheet-style tables.",
+          "slug": "spreadsheet-analyst",
+          "name": "Spreadsheet Analyst",
+          "category": "data",
+          "tags": [
+            "data",
+            "structured-data",
+            "spreadsheet"
+          ],
+          "bestFor": [
+            "data extraction",
+            "table review",
+            "dataset cleanup"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": true,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Data",
+      "description": "Agents for extracting, cleaning, and interpreting structured and semi-structured data."
     },
     {
       "name": "developer",
@@ -133,19 +583,86 @@
         {
           "id": "api-integration-builder",
           "path": "agents/developer/api-integration-builder",
-          "description": "Plans API integrations and endpoint flows."
+          "description": "Plans API integrations and endpoint flows.",
+          "slug": "api-integration-builder",
+          "name": "API Integration Builder",
+          "category": "developer",
+          "tags": [
+            "developer",
+            "engineering",
+            "api",
+            "integration"
+          ],
+          "bestFor": [
+            "engineering workflows",
+            "bug and code review",
+            "integration planning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": true,
+            "humanReview": false
+          }
         },
         {
           "id": "bug-triage-agent",
           "path": "agents/developer/bug-triage-agent",
-          "description": "Turns bug reports into reproducible engineering work."
+          "description": "Turns bug reports into reproducible engineering work.",
+          "slug": "bug-triage-agent",
+          "name": "Bug Triage Agent",
+          "category": "developer",
+          "tags": [
+            "developer",
+            "engineering",
+            "bug",
+            "triage"
+          ],
+          "bestFor": [
+            "engineering workflows",
+            "bug and code review",
+            "integration planning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "code-reviewer",
           "path": "agents/developer/code-reviewer",
-          "description": "Reviews code changes for bugs, risks, and test gaps."
+          "description": "Reviews code changes for bugs, risks, and test gaps.",
+          "slug": "code-reviewer",
+          "name": "Code Reviewer",
+          "category": "developer",
+          "tags": [
+            "developer",
+            "engineering",
+            "code"
+          ],
+          "bestFor": [
+            "engineering workflows",
+            "bug and code review",
+            "integration planning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Developer",
+      "description": "Agents for engineering review, debugging intake, and integration planning."
     },
     {
       "name": "finance",
@@ -153,19 +670,85 @@
         {
           "id": "expense-auditor",
           "path": "agents/finance/expense-auditor",
-          "description": "Finds anomalies and cleanup opportunities in spend data."
+          "description": "Finds anomalies and cleanup opportunities in spend data.",
+          "slug": "expense-auditor",
+          "name": "Expense Auditor",
+          "category": "finance",
+          "tags": [
+            "finance",
+            "metrics",
+            "expense",
+            "auditor"
+          ],
+          "bestFor": [
+            "metric review",
+            "pricing analysis",
+            "spend monitoring"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": true
+          }
         },
         {
           "id": "kpi-analyst",
           "path": "agents/finance/kpi-analyst",
-          "description": "Summarizes business metrics and reporting deltas."
+          "description": "Summarizes business metrics and reporting deltas.",
+          "slug": "kpi-analyst",
+          "name": "Kpi Analyst",
+          "category": "finance",
+          "tags": [
+            "finance",
+            "metrics",
+            "kpi"
+          ],
+          "bestFor": [
+            "metric review",
+            "pricing analysis",
+            "spend monitoring"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": true
+          }
         },
         {
           "id": "pricing-strategist",
           "path": "agents/finance/pricing-strategist",
-          "description": "Evaluates pricing models and packaging trade-offs."
+          "description": "Evaluates pricing models and packaging trade-offs.",
+          "slug": "pricing-strategist",
+          "name": "Pricing Strategist",
+          "category": "finance",
+          "tags": [
+            "finance",
+            "metrics",
+            "pricing"
+          ],
+          "bestFor": [
+            "metric review",
+            "pricing analysis",
+            "spend monitoring"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": true
+          }
         }
-      ]
+      ],
+      "title": "Finance",
+      "description": "Agents for KPI interpretation, pricing strategy, and spend review."
     },
     {
       "name": "marketing",
@@ -173,19 +756,86 @@
         {
           "id": "campaign-brief-writer",
           "path": "agents/marketing/campaign-brief-writer",
-          "description": "Turns rough marketing ideas into cross-channel briefs."
+          "description": "Turns rough marketing ideas into cross-channel briefs.",
+          "slug": "campaign-brief-writer",
+          "name": "Campaign Brief Writer",
+          "category": "marketing",
+          "tags": [
+            "marketing",
+            "growth",
+            "campaign",
+            "brief"
+          ],
+          "bestFor": [
+            "campaign planning",
+            "audience messaging",
+            "growth content"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "community-manager",
           "path": "agents/marketing/community-manager",
-          "description": "Plans community updates, moderation responses, and engagement loops."
+          "description": "Plans community updates, moderation responses, and engagement loops.",
+          "slug": "community-manager",
+          "name": "Community Manager",
+          "category": "marketing",
+          "tags": [
+            "marketing",
+            "growth",
+            "community"
+          ],
+          "bestFor": [
+            "campaign planning",
+            "audience messaging",
+            "growth content"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "seo-content-strategist",
           "path": "agents/marketing/seo-content-strategist",
-          "description": "Builds topic clusters and search-oriented content strategy."
+          "description": "Builds topic clusters and search-oriented content strategy.",
+          "slug": "seo-content-strategist",
+          "name": "SEO Content Strategist",
+          "category": "marketing",
+          "tags": [
+            "marketing",
+            "growth",
+            "seo",
+            "content"
+          ],
+          "bestFor": [
+            "campaign planning",
+            "audience messaging",
+            "growth content"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Marketing",
+      "description": "Agents for campaign planning, SEO content strategy, and community operations."
     },
     {
       "name": "multi-agent",
@@ -193,19 +843,85 @@
         {
           "id": "multi-agent-coordinator",
           "path": "agents/multi-agent/multi-agent-coordinator",
-          "description": "Breaks larger goals into specialist workstreams and integrates the results."
+          "description": "Breaks larger goals into specialist workstreams and integrates the results.",
+          "slug": "multi-agent-coordinator",
+          "name": "Multi Agent Coordinator",
+          "category": "multi-agent",
+          "tags": [
+            "multi-agent",
+            "coordination",
+            "multi"
+          ],
+          "bestFor": [
+            "task routing",
+            "coordination",
+            "cross-output synthesis"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "specialist-router",
           "path": "agents/multi-agent/specialist-router",
-          "description": "Chooses the best agent or role for each subtask in a mixed workflow."
+          "description": "Chooses the best agent or role for each subtask in a mixed workflow.",
+          "slug": "specialist-router",
+          "name": "Specialist Router",
+          "category": "multi-agent",
+          "tags": [
+            "multi-agent",
+            "coordination",
+            "specialist",
+            "router"
+          ],
+          "bestFor": [
+            "task routing",
+            "coordination",
+            "cross-output synthesis"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "synthesis-editor",
           "path": "agents/multi-agent/synthesis-editor",
-          "description": "Combines multiple outputs into one coherent final deliverable."
+          "description": "Combines multiple outputs into one coherent final deliverable.",
+          "slug": "synthesis-editor",
+          "name": "Synthesis Editor",
+          "category": "multi-agent",
+          "tags": [
+            "multi-agent",
+            "coordination",
+            "synthesis"
+          ],
+          "bestFor": [
+            "task routing",
+            "coordination",
+            "cross-output synthesis"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Multi-Agent",
+      "description": "Agents for routing work across specialists, coordinating larger workflows, and synthesizing outputs."
     },
     {
       "name": "operations",
@@ -213,29 +929,139 @@
         {
           "id": "dashboard-briefing-agent",
           "path": "agents/operations/dashboard-briefing-agent",
-          "description": "Converts live dashboards and KPI snapshots into short operational briefings."
+          "description": "Converts live dashboards and KPI snapshots into short operational briefings.",
+          "slug": "dashboard-briefing-agent",
+          "name": "Dashboard Briefing Agent",
+          "category": "operations",
+          "tags": [
+            "operations",
+            "execution",
+            "dashboard",
+            "briefing"
+          ],
+          "bestFor": [
+            "status reporting",
+            "incident response",
+            "execution tracking"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "incident-commander",
           "path": "agents/operations/incident-commander",
-          "description": "Coordinates response during outages and incidents."
+          "description": "Coordinates response during outages and incidents.",
+          "slug": "incident-commander",
+          "name": "Incident Commander",
+          "category": "operations",
+          "tags": [
+            "operations",
+            "execution",
+            "incident"
+          ],
+          "bestFor": [
+            "status reporting",
+            "incident response",
+            "execution tracking"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": true
+          }
         },
         {
           "id": "project-state-manager",
           "path": "agents/operations/project-state-manager",
-          "description": "Consolidates scattered project updates into a current state map and next actions."
+          "description": "Consolidates scattered project updates into a current state map and next actions.",
+          "slug": "project-state-manager",
+          "name": "Project State Manager",
+          "category": "operations",
+          "tags": [
+            "operations",
+            "execution",
+            "project",
+            "state"
+          ],
+          "bestFor": [
+            "status reporting",
+            "incident response",
+            "execution tracking"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "project-status-reporter",
           "path": "agents/operations/project-status-reporter",
-          "description": "Creates short, honest stakeholder status updates."
+          "description": "Creates short, honest stakeholder status updates.",
+          "slug": "project-status-reporter",
+          "name": "Project Status Reporter",
+          "category": "operations",
+          "tags": [
+            "operations",
+            "execution",
+            "project",
+            "status"
+          ],
+          "bestFor": [
+            "status reporting",
+            "incident response",
+            "execution tracking"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": true,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "sop-writer",
           "path": "agents/operations/sop-writer",
-          "description": "Converts repeated work into clear SOPs."
+          "description": "Converts repeated work into clear SOPs.",
+          "slug": "sop-writer",
+          "name": "Sop Writer",
+          "category": "operations",
+          "tags": [
+            "operations",
+            "execution",
+            "sop"
+          ],
+          "bestFor": [
+            "status reporting",
+            "incident response",
+            "execution tracking"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Operations",
+      "description": "Agents for incident response, SOP writing, and project status reporting."
     },
     {
       "name": "product",
@@ -243,24 +1069,111 @@
         {
           "id": "feedback-prioritizer",
           "path": "agents/product/feedback-prioritizer",
-          "description": "Ranks feedback themes and product opportunities."
+          "description": "Ranks feedback themes and product opportunities.",
+          "slug": "feedback-prioritizer",
+          "name": "Feedback Prioritizer",
+          "category": "product",
+          "tags": [
+            "product",
+            "planning",
+            "feedback",
+            "prioritizer"
+          ],
+          "bestFor": [
+            "idea evaluation",
+            "spec writing",
+            "launch planning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "idea-validator-agent",
           "path": "agents/product/idea-validator-agent",
-          "description": "Pressure-tests early product ideas against user pain, feasibility, and strategic fit."
+          "description": "Pressure-tests early product ideas against user pain, feasibility, and strategic fit.",
+          "slug": "idea-validator-agent",
+          "name": "Idea Validator Agent",
+          "category": "product",
+          "tags": [
+            "product",
+            "planning",
+            "idea"
+          ],
+          "bestFor": [
+            "idea evaluation",
+            "spec writing",
+            "launch planning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "launch-planner",
           "path": "agents/product/launch-planner",
-          "description": "Builds cross-functional launch plans and readiness checklists."
+          "description": "Builds cross-functional launch plans and readiness checklists.",
+          "slug": "launch-planner",
+          "name": "Launch Planner",
+          "category": "product",
+          "tags": [
+            "product",
+            "planning",
+            "launch"
+          ],
+          "bestFor": [
+            "idea evaluation",
+            "spec writing",
+            "launch planning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "product-spec-writer",
           "path": "agents/product/product-spec-writer",
-          "description": "Turns ideas and requirements into implementation-friendly specs."
+          "description": "Turns ideas and requirements into implementation-friendly specs.",
+          "slug": "product-spec-writer",
+          "name": "Product Spec Writer",
+          "category": "product",
+          "tags": [
+            "product",
+            "planning",
+            "spec"
+          ],
+          "bestFor": [
+            "idea evaluation",
+            "spec writing",
+            "launch planning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Product",
+      "description": "Agents for specification writing, prioritization, validation, and launch planning."
     },
     {
       "name": "productivity",
@@ -268,54 +1181,276 @@
         {
           "id": "family-calendar-household-assistant",
           "path": "agents/productivity/family-calendar-household-assistant",
-          "description": "Coordinates family schedules, appointments, and household reminders into one usable view."
+          "description": "Coordinates family schedules, appointments, and household reminders into one usable view.",
+          "slug": "family-calendar-household-assistant",
+          "name": "Family Calendar Household Assistant",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "family",
+            "calendar",
+            "household"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "habit-coach",
           "path": "agents/productivity/habit-coach",
-          "description": "Supports accountability, reflection, and habit iteration."
+          "description": "Supports accountability, reflection, and habit iteration.",
+          "slug": "habit-coach",
+          "name": "Habit Coach",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "habit"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "health-symptom-tracker",
           "path": "agents/productivity/health-symptom-tracker",
-          "description": "Organizes symptom logs, timeline changes, and observation notes for later review."
+          "description": "Organizes symptom logs, timeline changes, and observation notes for later review.",
+          "slug": "health-symptom-tracker",
+          "name": "Health Symptom Tracker",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "health",
+            "symptom"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": true,
+            "humanReview": true
+          }
         },
         {
           "id": "inbox-triage-assistant",
           "path": "agents/productivity/inbox-triage-assistant",
-          "description": "Sorts inbox items into clear next actions."
+          "description": "Sorts inbox items into clear next actions.",
+          "slug": "inbox-triage-assistant",
+          "name": "Inbox Triage Assistant",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "inbox",
+            "triage"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": true,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "meeting-action-extractor",
           "path": "agents/productivity/meeting-action-extractor",
-          "description": "Pulls decisions, owners, and follow-ups out of meeting notes or transcripts."
+          "description": "Pulls decisions, owners, and follow-ups out of meeting notes or transcripts.",
+          "slug": "meeting-action-extractor",
+          "name": "Meeting Action Extractor",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "meeting",
+            "action"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "meeting-briefing-agent",
           "path": "agents/productivity/meeting-briefing-agent",
-          "description": "Prepares concise, decision-ready meeting briefs."
+          "description": "Prepares concise, decision-ready meeting briefs.",
+          "slug": "meeting-briefing-agent",
+          "name": "Meeting Briefing Agent",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "meeting",
+            "briefing"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": true,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "morning-briefing-agent",
           "path": "agents/productivity/morning-briefing-agent",
-          "description": "Builds a custom daily briefing from priorities, schedules, and tracked information."
+          "description": "Builds a custom daily briefing from priorities, schedules, and tracked information.",
+          "slug": "morning-briefing-agent",
+          "name": "Morning Briefing Agent",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "morning",
+            "briefing"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "newsletter-digest-agent",
           "path": "agents/productivity/newsletter-digest-agent",
-          "description": "Compresses inbox-style newsletters into a short, prioritized reading digest."
+          "description": "Compresses inbox-style newsletters into a short, prioritized reading digest.",
+          "slug": "newsletter-digest-agent",
+          "name": "Newsletter Digest Agent",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "newsletter",
+            "digest"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": true,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "personal-crm-agent",
           "path": "agents/productivity/personal-crm-agent",
-          "description": "Keeps relationship notes, follow-ups, and outreach opportunities organized."
+          "description": "Keeps relationship notes, follow-ups, and outreach opportunities organized.",
+          "slug": "personal-crm-agent",
+          "name": "Personal CRM Agent",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "personal",
+            "crm"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "second-brain-curator",
           "path": "agents/productivity/second-brain-curator",
-          "description": "Organizes captured notes into reusable summaries and retrieval-friendly structures."
+          "description": "Organizes captured notes into reusable summaries and retrieval-friendly structures.",
+          "slug": "second-brain-curator",
+          "name": "Second Brain Curator",
+          "category": "productivity",
+          "tags": [
+            "productivity",
+            "personal-ops",
+            "second",
+            "brain"
+          ],
+          "bestFor": [
+            "daily planning",
+            "personal organization",
+            "follow-up management"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Productivity",
+      "description": "Agents for inbox cleanup, planning, relationship management, and personal operations."
     },
     {
       "name": "research",
@@ -323,19 +1458,86 @@
         {
           "id": "arxiv-paper-reader",
           "path": "agents/research/arxiv-paper-reader",
-          "description": "Explains technical papers and practical implications."
+          "description": "Explains technical papers and practical implications.",
+          "slug": "arxiv-paper-reader",
+          "name": "Arxiv Paper Reader",
+          "category": "research",
+          "tags": [
+            "research",
+            "analysis",
+            "arxiv",
+            "paper",
+            "reader"
+          ],
+          "bestFor": [
+            "source-backed analysis",
+            "technical reading",
+            "topic briefings"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "earnings-tracker",
           "path": "agents/research/earnings-tracker",
-          "description": "Summarizes earnings materials and management signal."
+          "description": "Summarizes earnings materials and management signal.",
+          "slug": "earnings-tracker",
+          "name": "Earnings Tracker",
+          "category": "research",
+          "tags": [
+            "research",
+            "analysis",
+            "earnings"
+          ],
+          "bestFor": [
+            "source-backed analysis",
+            "technical reading",
+            "topic briefings"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": true,
+            "humanReview": false
+          }
         },
         {
           "id": "web-research-analyst",
           "path": "agents/research/web-research-analyst",
-          "description": "Turns broad research questions into source-backed findings."
+          "description": "Turns broad research questions into source-backed findings.",
+          "slug": "web-research-analyst",
+          "name": "Web Research Analyst",
+          "category": "research",
+          "tags": [
+            "research",
+            "analysis",
+            "web"
+          ],
+          "bestFor": [
+            "source-backed analysis",
+            "technical reading",
+            "topic briefings"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
-      ]
+      ],
+      "title": "Research",
+      "description": "Agents for web research, paper reading, and analytical briefings."
     },
     {
       "name": "security",
@@ -343,19 +1545,85 @@
         {
           "id": "access-audit-analyst",
           "path": "agents/security/access-audit-analyst",
-          "description": "Reviews permissions for overbroad or stale access."
+          "description": "Reviews permissions for overbroad or stale access.",
+          "slug": "access-audit-analyst",
+          "name": "Access Audit Analyst",
+          "category": "security",
+          "tags": [
+            "security",
+            "risk",
+            "access",
+            "audit"
+          ],
+          "bestFor": [
+            "risk review",
+            "audit preparation",
+            "post-incident learning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": true
+          }
         },
         {
           "id": "incident-postmortem-writer",
           "path": "agents/security/incident-postmortem-writer",
-          "description": "Writes postmortems from incident timelines and analysis."
+          "description": "Writes postmortems from incident timelines and analysis.",
+          "slug": "incident-postmortem-writer",
+          "name": "Incident Postmortem Writer",
+          "category": "security",
+          "tags": [
+            "security",
+            "risk",
+            "incident",
+            "postmortem"
+          ],
+          "bestFor": [
+            "risk review",
+            "audit preparation",
+            "post-incident learning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": true,
+            "api": false,
+            "humanReview": true
+          }
         },
         {
           "id": "security-reviewer",
           "path": "agents/security/security-reviewer",
-          "description": "Looks for obvious security risks and missing controls."
+          "description": "Looks for obvious security risks and missing controls.",
+          "slug": "security-reviewer",
+          "name": "Security Reviewer",
+          "category": "security",
+          "tags": [
+            "security",
+            "risk"
+          ],
+          "bestFor": [
+            "risk review",
+            "audit preparation",
+            "post-incident learning"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": true
+          }
         }
-      ]
+      ],
+      "title": "Security",
+      "description": "Agents for security review, access audits, and incident postmortems."
     },
     {
       "name": "support",
@@ -363,18 +1631,140 @@
         {
           "id": "customer-onboarding-guide",
           "path": "agents/support/customer-onboarding-guide",
-          "description": "Designs onboarding plans and activation guidance."
+          "description": "Designs onboarding plans and activation guidance.",
+          "slug": "customer-onboarding-guide",
+          "name": "Customer Onboarding Guide",
+          "category": "support",
+          "tags": [
+            "support",
+            "customer-ops",
+            "customer",
+            "onboarding"
+          ],
+          "bestFor": [
+            "customer support",
+            "knowledge management",
+            "onboarding workflows"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "knowledge-base-editor",
           "path": "agents/support/knowledge-base-editor",
-          "description": "Turns rough support knowledge into help-center content."
+          "description": "Turns rough support knowledge into help-center content.",
+          "slug": "knowledge-base-editor",
+          "name": "Knowledge Base Editor",
+          "category": "support",
+          "tags": [
+            "support",
+            "customer-ops",
+            "knowledge",
+            "base"
+          ],
+          "bestFor": [
+            "customer support",
+            "knowledge management",
+            "onboarding workflows"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": true,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         },
         {
           "id": "support-triage-agent",
           "path": "agents/support/support-triage-agent",
-          "description": "Routes support requests by urgency and owner."
+          "description": "Routes support requests by urgency and owner.",
+          "slug": "support-triage-agent",
+          "name": "Support Triage Agent",
+          "category": "support",
+          "tags": [
+            "support",
+            "customer-ops",
+            "triage"
+          ],
+          "bestFor": [
+            "customer support",
+            "knowledge management",
+            "onboarding workflows"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": false,
+            "humanReview": false
+          }
         }
+      ],
+      "title": "Support",
+      "description": "Agents for support queue triage, help-center writing, and onboarding guidance."
+    }
+  ],
+  "beginnerPicks": [
+    "inbox-triage-assistant",
+    "meeting-briefing-agent",
+    "newsletter-digest-agent",
+    "browser-research-operator",
+    "project-status-reporter",
+    "knowledge-base-editor"
+  ],
+  "featuredAgents": [
+    "browser-research-operator",
+    "os-task-runner",
+    "data-extraction-agent",
+    "multi-agent-coordinator",
+    "product-spec-writer",
+    "security-reviewer"
+  ],
+  "featuredStacks": [
+    {
+      "name": "Research Stack",
+      "description": "Go from browsing to synthesis without losing sources or follow-up ideas.",
+      "agents": [
+        "browser-research-operator",
+        "web-research-analyst",
+        "synthesis-editor"
+      ]
+    },
+    {
+      "name": "Launch Stack",
+      "description": "Move from early concept to launch planning and outward-facing messaging.",
+      "agents": [
+        "idea-validator-agent",
+        "product-spec-writer",
+        "launch-planner",
+        "campaign-brief-writer"
+      ]
+    },
+    {
+      "name": "Daily Personal Ops Stack",
+      "description": "Keep mornings, relationships, and newsletter-heavy inputs under control.",
+      "agents": [
+        "morning-briefing-agent",
+        "newsletter-digest-agent",
+        "personal-crm-agent"
+      ]
+    },
+    {
+      "name": "Automation Stack",
+      "description": "Design and run automation workflows with practical recovery and data handoffs.",
+      "agents": [
+        "workflow-orchestrator",
+        "n8n-integration-architect",
+        "data-extraction-agent"
       ]
     }
   ]

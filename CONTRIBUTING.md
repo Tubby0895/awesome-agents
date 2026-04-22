@@ -11,6 +11,12 @@ Use `kebab-case` for folder names such as `sales-prospect-researcher`.
 
 Base new `SOUL.md` files on [templates/SOUL.template.md](templates/SOUL.template.md).
 
+Update `agents.json` with the new agent metadata, then run:
+
+```bash
+python3 scripts/generate_catalog.py --rewrite-json --write
+```
+
 ## Quality Bar
 
 - Keep the agent focused on one job
@@ -25,6 +31,7 @@ Base new `SOUL.md` files on [templates/SOUL.template.md](templates/SOUL.template
 - Keep behavior predictable
 - Document meaningful scope changes in the agent `README.md`
 - Update `agents.json` when you add, remove, or rename an agent
+- Re-run `python3 scripts/generate_catalog.py --rewrite-json --write` after metadata changes
 
 ## Pull Requests
 
