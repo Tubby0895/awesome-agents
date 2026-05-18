@@ -226,6 +226,7 @@ See [agents/security/README.md](agents/security/README.md).
 - [Access Audit Analyst](agents/security/access-audit-analyst/): Reviews permissions for overbroad or stale access.
 - [Incident Postmortem Writer](agents/security/incident-postmortem-writer/): Writes postmortems from incident timelines and analysis.
 - [Security Reviewer](agents/security/security-reviewer/): Looks for obvious security risks and missing controls.
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
 ### Support
 Agents for support queue triage, help-center writing, and onboarding guidance.
