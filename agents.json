@@ -832,6 +832,35 @@
             "api": false,
             "humanReview": false
           }
+        },
+        {
+          "id": "tweetclaw-x-twitter-ops-agent",
+          "path": "agents/marketing/tweetclaw-x-twitter-ops-agent",
+          "description": "Coordinates X/Twitter research, monitors, replies, and giveaway workflows through TweetClaw.",
+          "slug": "tweetclaw-x-twitter-ops-agent",
+          "name": "TweetClaw X/Twitter Ops Agent",
+          "category": "marketing",
+          "tags": [
+            "marketing",
+            "growth",
+            "tweetclaw",
+            "twitter",
+            "x",
+            "monitoring"
+          ],
+          "bestFor": [
+            "X/Twitter campaign monitoring",
+            "tweet and reply research",
+            "giveaway workflows"
+          ],
+          "maturity": "ready",
+          "beginnerFriendly": false,
+          "requires": {
+            "browser": false,
+            "filesystem": false,
+            "api": true,
+            "humanReview": true
+          }
         }
       ],
       "title": "Marketing",

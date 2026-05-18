@@ -12,3 +12,5 @@ Agents for campaign planning, SEO content strategy, and community operations.
   Best for: campaign planning, audience messaging. Tags: `marketing`, `growth`, `community`.
 - [SEO Content Strategist](./seo-content-strategist/): Builds topic clusters and search-oriented content strategy.
   Best for: campaign planning, audience messaging. Tags: `marketing`, `growth`, `seo`, `content`.
+- [TweetClaw X/Twitter Ops Agent](./tweetclaw-x-twitter-ops-agent/): Coordinates X/Twitter research, monitors, replies, and giveaway workflows through TweetClaw.
+  Best for: X/Twitter campaign monitoring, tweet and reply research. Tags: `marketing`, `growth`, `tweetclaw`, `twitter`.
