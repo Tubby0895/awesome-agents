@@ -28,7 +28,7 @@ scripts/generate_catalog.py
 
 ## Current Coverage
 
-This repository currently includes 60 agents across 15 categories.
+This repository currently includes 61 agents across 15 categories.
 
 ## Quick Start
 
@@ -162,6 +162,7 @@ See [agents/marketing/README.md](agents/marketing/README.md).
 - [Campaign Brief Writer](agents/marketing/campaign-brief-writer/): Turns rough marketing ideas into cross-channel briefs.
 - [Community Manager](agents/marketing/community-manager/): Plans community updates, moderation responses, and engagement loops.
 - [SEO Content Strategist](agents/marketing/seo-content-strategist/): Builds topic clusters and search-oriented content strategy.
+- [TweetClaw X/Twitter Ops Agent](agents/marketing/tweetclaw-x-twitter-ops-agent/): Coordinates X/Twitter research, monitors, replies, and giveaway workflows through TweetClaw.
 
 ### Multi-Agent
 Agents for routing work across specialists, coordinating larger workflows, and synthesizing outputs.
